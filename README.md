@@ -1,6 +1,7 @@
 Incomplete: post api for updating db, some features are not done, native frontend with tailwindcss
 
 # Requirements
+- Visual Studio 2022
 - ASP.NET Core MVC with .NET 8.0 Framework
 - SQL Server with SSMS for Database visualization
 
