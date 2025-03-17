@@ -1,5 +1,3 @@
-Incomplete: post api for updating db, some features are not done, native frontend with tailwindcss
-
 # Requirements
 - Visual Studio 2022
 - ASP.NET Core MVC with .NET 8.0 Framework
@@ -21,4 +19,7 @@ Refer to this video for a quick setup: https://www.youtube.com/watch?v=ETVV3C7kG
 - In appsetting.json, configure the default connection to the connection string obtained before
 - (Optional) In Program.cs, configure the database connection according to appsetting.json,
   but only changing the appsetting.json's DefaultConnection string is fine as well.
-- Set the run to IIS Express to run, and Ctrl + F5 to run without debugging. 
+- Set the run to IIS Express to run, and Ctrl + F5 to run without debugging.
+
+# Incomplete
+post api for updating db, some features are not done, native frontend with tailwindcss
