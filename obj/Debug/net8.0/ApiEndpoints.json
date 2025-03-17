@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "SalesOrder.Controllers.ApiControllers.COMCustomerController",
+    "Method": "GetOrders",
+    "RelativePath": "api/COMCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesOrder.Controllers.ApiControllers.SalesOrderController",
+    "Method": "GetOrders",
+    "RelativePath": "api/SalesOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesOrder.Controllers.ApiControllers.SalesOrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/SalesOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "soOrder",
+        "Type": "SalesOrder.Models.SOOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesOrder.Controllers.ApiControllers.SalesOrderController",
+    "Method": "GetOrderByName",
+    "RelativePath": "api/SalesOrder/GetOrderByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "soOrderName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesOrderItems.Controllers.ApiControllers.SalesOrderItemsController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/SalesOrderItems/GetCustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesOrderItems.Controllers.ApiControllers.SalesOrderItemsController",
+    "Method": "GetSoOrder",
+    "RelativePath": "api/SalesOrderItems/GetSoOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "soOrderId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
